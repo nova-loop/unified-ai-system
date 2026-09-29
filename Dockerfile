@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Digest-pinned base image keeps builds reproducible; bump deliberately.
-FROM node:22-bookworm-slim@sha256:a17d50af28002a160548bd4225b3cfcb12c5efcb171f79e68758f2885fb1b066 AS runtime
+FROM node:26-bookworm-slim@sha256:662933cf47f013bc8e4beb31a6116448427a82057ba7c42c97e4c5ba766504c2 AS runtime
 
 WORKDIR /app
 
